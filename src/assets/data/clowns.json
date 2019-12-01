@@ -1,0 +1,24 @@
+{
+  "clowns": [
+    {
+      "id": "167637273712656384",
+      "name": "Goopy",
+      "alias": ["Goopy", "Gooperz", "Gooperino"]
+    },
+    {
+      "id": "123115117062782979",
+      "name": "ZeeKip",
+      "alias": ["Kippie", "Kimp", "Kimpie"]
+    },
+    {
+      "id": "201036334033403904",
+      "name": "Moron",
+      "alias": ["Moron", "Moister", "Meester"]
+    },
+    {
+      "id": "111277040094687232",
+      "name": "Aroxis",
+      "alias": ["Aroxis", "Aronxvis", "Trompetrick"]
+    }
+  ]
+}

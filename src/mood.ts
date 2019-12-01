@@ -1,8 +1,12 @@
-export const mood = (msg, bro, cb) => {
+import { Message } from "discord.js";
+import {randomBro} from "./util";
+
+
+export function mood(msg: Message, cb: Function) {
 	const responses = [
 		"No u",
 		"No.",
-		"Not in the mood, " + bro
+		"Not in the mood, " + randomBro()
 	];
 
 	if (Math.random() > 0.5) {

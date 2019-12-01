@@ -1,7 +1,18 @@
 {
-  "name": "BobDeBot",
+  "name": "bob-de-bot",
   "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "watch": "node_modules/.bin/tsc -w",
+    "build": "node_modules/.bin/tsc",
+    "start": "node dist/index.js"
+  },
   "dependencies": {
-    "discord.js": "latest"
+    "discord.js": "^11.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2"
   }
 }
